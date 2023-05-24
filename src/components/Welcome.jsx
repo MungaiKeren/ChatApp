@@ -1,9 +1,15 @@
-
+import React from 'react';
 
 function Welcome() {
     return (
-        <div>
-            <h1>Welcome to React Chat</h1>
+        <div className="container">
+            <div className="row">
+                <div className="col-md-2"></div>
+                <div className="col-md-8">
+                    keren
+                </div>
+                <div className="col-md-2"></div>
+            </div>
         </div>
     );
 }
